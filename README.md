@@ -6,6 +6,7 @@ Artificial Intelligence A Modern Approach, 3rd Edition by Stuart J. Russell, Pet
 - Chapter Summary
 - Problem Solutions
 - Extra tips
+- English words meaning
 
 ## Table of contents
 - I: Artificial Intelligence
