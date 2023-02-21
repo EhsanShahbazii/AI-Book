@@ -9,7 +9,7 @@ Artificial Intelligence A Modern Approach, 3rd Edition by Stuart J. Russell, Pet
 - English words meaning
 
 ## Table of contents
-- I: Artificial Intelligence
+- [I: Artificial Intelligence](1-Artificial%20Intelligence)
     - [1 Introduction](1-Artificial%20Intelligence/1-Introduction/1%20Introduction.md)
     - [2 Intelligent Agents](1-Artificial%20Intelligence/1-Introduction/2%20Intelligent%20Agents.md)
 - II: Problem-solving
