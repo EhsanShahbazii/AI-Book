@@ -47,3 +47,19 @@
 - عامل مبتنی بر سودمندی(utility based agent)
 - عامل های یادگیرنده(learning agent)
 
+عامل واکنشی ساده در صورتی درست عمل می کند، که عمل مناسب فقط وابسته به مشاهده کنونی باشد.
+
+در صورتیکه عمل مناسب وابسته به دنباله ای از ادراکات گذشته باشد عامل واکنشی ساده به خطا می رود.
+
+عامل واکنشی ساده در محیط مشاهده پذیر امکان رفتار درست را خواهد داشت.
+
+### برنامه عامل واکنشی(بازتابی) ساده
+```pseudocode
+function SIMPLE-REFLEX-AGENT(percept) returns an action
+  persistent: rules, a set of condition-action rules
+  
+  state <--  INTERPRET-INPUT(percept)
+  rule <-- RULE-MATCH(state, rules)
+  action <-- rule.ACTION
+  return action
+```
