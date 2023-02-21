@@ -10,8 +10,8 @@ Artificial Intelligence A Modern Approach, 3rd Edition by Stuart J. Russell, Pet
 
 ## Table of contents
 - I: Artificial Intelligence
-    - 1 Introduction
-    - 2 Intelligent Agents
+    - [1 Introduction](1-Artificial%20Intelligence/1-Introduction/1%20Introduction.md)
+    - [2 Intelligent Agents](1-Artificial%20Intelligence/1-Introduction/2%20Intelligent%20Agents.md)
 - II: Problem-solving
     - 3 Solving Problems by Searching
     - 4 Search in Complex Environments
