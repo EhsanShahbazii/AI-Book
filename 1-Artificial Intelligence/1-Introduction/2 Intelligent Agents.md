@@ -63,3 +63,15 @@ function SIMPLE-REFLEX-AGENT(percept) returns an action
   action <-- rule.ACTION
   return action
 ```
+### برنامه عامل واکنشی(بازتابی) مبتنی بر مدل
+```pseudocode
+function MODEL-BASED-REFLEX-AGENT(percept) returns an action
+  persistent: state, the agent's current conception of the world state
+  model, a description of condition-action rules
+  action, the most recent action, initially none
+  
+state <-- UPDATE-STATE(state, action, percept, model)
+rule <-- RULE-MATCH(state, rules)
+action <-- rule.ACTION
+return action
+```
